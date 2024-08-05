@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario2</title>
+
+</head>
+<body>
+    <fieldset class="formulario2" style="width: 180px;">
+        <form>
+            <p>
+                <label for="name">
+                    <b>Escriba su Nombre:</b>
+                    <input type="text" name="data" id="name" placeholder="Francesco">
+                </label>
+            </p>
+
+            <p>
+                <label for="surname">
+                    <b>Escriba su Apellido:</b>
+                    <input type="text" name="data" id="surname" placeholder="Ricart">
+                </label>
+            </p>
+            
+            <p>
+                <label for="email"><b>Correo Electronico:</b></label>
+                    <input type="email" name="data" placeholder="ejemplo@dominio.com">
+            </p>
+            
+        </form>
+
+        <form>
+            <h3>Que valoracion le da a la pagina:</h3>
+            <label for="1">
+                <b>1</b>
+                <input type="radio" name="stars">
+            </label>
+            <label for="2">
+                <b>2</b>
+                <input type="radio" name="stars">
+            </label>
+            <label for="3">
+                <b>3</b>
+                <input type="radio" name="stars">
+            </label>
+            <label for="4">
+                <b>4</b>
+                <input type="radio" name="stars">
+            </label>
+            <label for="5">
+                <b>5</b>
+                <input type="radio" name="stars">
+            </label>
+        </form>
+
+        <form>
+            <h3>Que asignaturas has estudiado:</h3> 
+            <label for="html">
+                HTML
+                <input type="checkbox" name="study">
+            </label>
+            <label for="css">
+                CSS
+                <input type="checkbox" name="study">
+            </label>
+            <label for="javascript">
+                JavaScript
+                <input type="checkbox" name="study">
+            </label>
+        </form>
+
+        <form>
+            
+            <p><label for="aling">
+                <b>Selecciona tu equipo ideal</b>
+            </label></p>
+            <select name="players" id="aling" multiple style="width: 315px; height: 100px;">
+                <b>Selecciona tu equipo ideal</b>
+                <option>Messi</option>
+                <option>Cristiano Ronaldo</option>
+                <option>Sergio Ramos</option>
+                <option>chirinski</option>
+                <option>Shevchenko</option>
+            </select>
+        </form>
+
+        <form>
+            
+            <p><label for="textarea"><b>Que mejorarias de este curso:</b></label></p>
+            <textarea name="opinion" id="textarea" cols="40" rows="5"></textarea>
+        </form>
+
+        <form>
+            <input type="submit">
+        </form>
+    </fieldset>
+</body>
+</html>

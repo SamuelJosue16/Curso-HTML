@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form>
+        <label for="name">
+            nombre
+        </label>
+        <input id="name">
+        
+        <label for="correo">
+            Correo electronico
+        </label>
+        <input id="correo">
+        <button>Enviar</button>
+    </form>
+
+
+    <form>
+        <input>
+        <input type="button" value="Boton">
+        <button>Enviar formulario</button>
+    </form>
+
+    <form>
+        <input type="date">
+        <input type="time">
+        <input type="week">
+        <input type="month">
+    </form>
+
+    <form>
+        <div>
+        <label>
+            Buscar
+            <input type="search">    
+        </label>
+    </div>
+
+    <div>
+        <label>
+            Email
+            <input type="email">
+        </label>
+    </div>
+
+    <div>
+        Telefono
+        <input type="tel">
+    </div>
+    </form>
+
+    <form>
+        <input type="range">
+        <input type="color">
+        <input type="number">
+        <input type="reset">
+    </form>
+
+    <form>
+        <h1>Genero</h1>
+        <p>
+            <label>
+                Masculino
+                <input type="radio" name="gender" value="mascuoino">
+            </label>
+        </p>
+       
+        <label>
+            Femenino
+            <input type="radio" name="gender" value="femenino">
+        </label>
+        <label>
+            Helicoptero apache
+            <input type="radio" name="gender" value="Helicoptero">
+        </label>
+    </form>
+
+    <form>
+        <h1>Genero</h1>
+        <label>
+            Rock
+            <input type="checkbox" name="music" value="rock">
+        </label>
+        <label>
+            Trap
+            <input type="checkbox" name="music" value="Trap">
+        </label>
+        <label>
+            POP
+            <input type="checkbox" name="music" value="POP">
+        </label>
+    </form>
+
+    <select name="JUGADORES">
+        <option value="messi">Messi</option>
+        <option value="ronaldo">Ronaldo</option>
+        <option value="neuer">Neuer</option>
+    </select>
+
+    <select name="JUGADORES">
+        <optgroup label="Jugadores de campo">
+            <option value="messi">Messi</option>
+            <option value="ronaldo">Ronaldo</option>  
+        </optgroup>
+        <optgroup label="Porteros">
+            <option value="neuer">Neuer</option>
+        </optgroup>
+        
+    </select>
+
+    <form>
+        <input type="list" list="Jugadores">
+        <datalist id="Jugadores">
+            <option value="messi">Messi</option>
+            <option value="ronaldo">Ronaldo</option>
+            <option value="neuer">Neuer</option> 
+        </datalist>
+    </form>
+
+    <form>
+        <label for="data">Datos personales</label>
+        <fieldset>
+            <label for="name">Nombre</label>
+            <input type="text" id="name">
+            <label for="surname">apellido</label>
+            <input type="text" id="surname">
+        </fieldset>
+    </form>
+
+    <form>
+        <input type="file">
+    </form>
+
+    <form>
+        <label for="fuel">
+            <meter id="fuel" value="50" min="0" max="100" low="20" high="80" optimum="50"></meter>
+        </label>
+
+        <label for="task">Tarea 1</label>
+        <progress id="task" value="50" max="100"></progress>
+
+        <label for="text">Introduzca su texto</label>
+        <textarea name="" id="text" cols="30" rows="30A"></textarea>
+    </form>
+
+    <form>
+        <fieldset>
+            <label for="name">Nombre</label>
+            <input type="text" id="name" placeholder="Introduce el nombre" required autofocus>
+            <label for="surname">Apellido</label>
+            <input type="text" id="surname" minlength="5" maxlength="10">
+            <label for="info">Informacion varia</label>
+            <input type="text" value="hello" readonly>
+            
+            <input type="number" min="1" max="2">
+            <input type="submit">
+        </fieldset>
+        
+    </form>
+
+    <form>
+        <select name="JUGADORES">
+            <optgroup label="Jugadores de campo">
+                <option value="messi" selected>Messi</option>
+                <option value="ronaldo">Ronaldo</option>  
+            </optgroup>
+            <optgroup label="Porteros">
+                <option value="neuer">Neuer</option>
+            </optgroup>
+            
+        </select>
+    </form>
+</body>
+</html>
